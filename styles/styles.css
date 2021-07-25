@@ -1,7 +1,65 @@
-#main_logo {
-  display: inline-block;
+body {
+  margin:0px;
 }
 
-#search {
-  display: inline-block;
+header {
+  display:flex;
+  width:100%;
+  height:185px;
+  flex-direction: column;
+  background-color: #00313e;
 }
+
+.info_pannel{
+  flex:4;
+  display: flex;
+  flex-direction:row;
+  background-color: #001426;
+}
+
+.contacts{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search_pannel{
+  flex:8;
+}
+
+.user_pannel{
+  flex:5;
+}
+
+/*header {
+  display: flex;
+  width:99%;
+  height:130px;
+  border: 5px solid black;
+  padding:2px;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+ .img {
+   flex:1;
+   margin-right:3%;
+}
+.site-name {
+  flex:10;
+  align-items: flex-end;
+  font-size: 59px;
+  align-items: center;
+}
+
+.menu {
+  flex:3;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.main-part {
+  display:flex;
+
+}*/
